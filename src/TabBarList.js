@@ -43,6 +43,6 @@ class TabBarList extends Component {
     }
 }
 const mapStateToProps = state => {
-    return {tabsId:state.tabId}
+    return {tabsId:state.tabId} //esto lo jale desde reducer
 }
 export default connect(mapStateToProps,actions)(TabBarList)
